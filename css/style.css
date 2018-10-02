@@ -19,9 +19,10 @@ header {
 
 .menu {
     font-family: 'Calibri';
-    font-size: 16px;
+    font-size: 20px;
     text-decoration: none;
     list-style: none;
+    margin-right: -40px;
 }
 
 .menu li {
@@ -35,6 +36,10 @@ header {
     cursor: pointer;
 }
 
+.menu li a:hover {
+    color: #6f6f6f;
+}
+
 .menu li:nth-of-type(-n+3) a {
     font-weight: bold;
 }
@@ -45,11 +50,13 @@ header {
 }
 
 .logo {
-    margin-left: 40px;
-    width: 222px;
-    height: 48px;
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 215px;
+    height: 46px;
+    background-repeat: no-repeat;
     background-image: url("../img/logo.png");
-    background-size: cover;
+    background-size: contain;
 }
 
 .icon {
@@ -59,13 +66,17 @@ header {
     margin-left: 10px;
 }
 
+.icon:hover {
+    opacity: 0.7;
+}
+
 .bag-icon {
-    padding: 15px;
+    padding: 10px 20px;
     background-image: url("../img/bag.png");
 }
 
 .heart-icon {
-    padding: 32px;
+    padding: 20px 42px;
     background-image: url("../img/heart.png");
 }
 
@@ -102,7 +113,7 @@ header {
 .dropdown-content {
     display: none;
     margin-top: 12px;
-    right: 24px;
+    right: 0;
     position: absolute;
     width: 295px;
     height: 395px;
