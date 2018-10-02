@@ -37,7 +37,7 @@ header {
 }
 
 .menu li a:hover {
-    color: #282828;
+    color: #6f6f6f;
 }
 
 .menu li:nth-of-type(-n+3) a {
@@ -67,7 +67,7 @@ header {
 }
 
 .icon:hover {
-    filter: brightness(80%);
+    opacity: 0.4;
 }
 
 .bag-icon {
