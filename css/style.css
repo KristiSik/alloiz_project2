@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    padding: 12px 12px 8px 12px;
+    padding: 10px 12px 8px 10px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -22,7 +22,7 @@ header {
     font-size: 20px;
     text-decoration: none;
     list-style: none;
-    margin-right: -40px;
+    margin: 10px -40px 0 0;
 }
 
 .menu li {
@@ -50,10 +50,9 @@ header {
 }
 
 .logo {
-    margin-top: 10px;
     margin-left: 50px;
-    width: 215px;
-    height: 46px;
+    width: 192px;
+    height: 39px;
     background-repeat: no-repeat;
     background-image: url("../img/logo.png");
     background-size: contain;
